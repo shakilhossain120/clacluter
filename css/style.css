@@ -1,0 +1,39 @@
+.wraper{}
+.wraper p{}
+.wraper input{}
+
+.wraper {
+
+    margin-top: 100px;
+    background: cadetblue;
+    width: 244px;
+    margin-left: 400px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+input.sameput {
+   width: 117px;
+}
+.layer2 input{
+         width: 56px;
+    height: 40px;
+    margin-top: 6px;
+}
+#inputId{
+	    font-weight: 600;
+}
+input#display-answer {
+
+   width: 240px;
+    margin-bottom: 5px;
+    padding: 21px;
+    text-align: right;
+    margin-left: -1px;
+    border: none;
+    margin-top: 2px;
+}

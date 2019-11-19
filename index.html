@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="imges/Free-Agencylogo_-PSD.png" type="image/png" sizes="32x32">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- style-css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>calculator</title>
+</head>
+<body>
+
+  <section>
+    <div class="wraper">
+      <form>
+        <input type="text" name="answer" id="display-answer">
+       <div class="layer1">
+          <input type="button" name="" class="sameput" value="CE" onclick="form.answer.value= ''">
+          <input type="button" name="" class="sameput" value="=" onclick="form.answer.value = eval(form.answer.value)">
+      </div>
+      <div class="layer2">
+         <input type="button" name="" id="inputId" class="main-num"value="7" onclick="form.answer.value +='7' ">
+         <input type="button" name="" id="inputId" class="main-num"value="8" onclick="form.answer.value +='8' ">
+         <input type="button" name="" id="inputId" class="main-num"value="9" onclick="form.answer.value +='9' ">
+         <input type="button" name="" class="main-num"value="+" onclick="form.answer.value +='+' ">
+      </div>
+      <div class="layer2">
+         <input type="button" name="" id="inputId" class="main-num"value="4" onclick="form.answer.value +='4' ">
+         <input type="button" name="" id="inputId" class="main-num"value="5" onclick="form.answer.value +='5' ">
+         <input type="button" name="" id="inputId" class="main-num"value="6" onclick="form.answer.value +='6' ">
+         <input type="button" name="" class="main-num"value="-" onclick="form.answer.value +='-' ">
+      </div>
+      <div class="layer2">
+         <input type="button" name="" id="inputId" class="main-num"value="1" onclick="form.answer.value +='1' ">
+         <input type="button" name="" id="inputId" class="main-num"value="2" onclick="form.answer.value +='2' ">
+         <input type="button" name="" id="inputId" class="main-num"value="3" onclick="form.answer.value +='3' ">
+         <input type="button" name="" class="main-num"value="/" onclick="form.answer.value +='/' ">
+      </div>
+      <div class="layer2">
+         <input type="button" name="" class="main-num"value="." onclick="form.answer.value +='.' ">
+         <input type="button" name="" id="inputId" class="main-num"value="0" onclick="form.answer.value +='0' ">
+         <input type="button" name="" class="main-num"value="%" onclick="form.answer.value +='%' ">
+         <input type="button" name="" class="main-num"value="*" onclick="form.answer.value +='*' ">
+      </div>
+    </form>
+  </div>
+</section>
+</body>
+</html>
